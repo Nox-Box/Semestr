@@ -7,7 +7,7 @@ from pyowm import OWM
 from pyowm.utils.config import get_default_config
  
 def main() -> None:
-    updater = Updater("1757924540:AAGWOXn0qJYYqenJ7MNNyDNVTqjPj0JUfio")
+    updater = Updater("1757924540:AAGWOXn0qJYYqenJ7MNNyDNVTqjPj0JUfio") # Ключ к телеграмм каналу
     dispatcher = updater.dispatcher
  
     dispatcher.add_handler(CommandHandler("start", start))
